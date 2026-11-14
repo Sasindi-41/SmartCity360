@@ -1,0 +1,64 @@
+
+# Maven build output
+target/
+build/
+dist/
+*.class
+*.war
+*.ear
+
+# Keep Maven wrapper files
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Local run configurations
+.run/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+logs/
+temp/
+tmp/
+
+# SmartCity360 database and test evidence
+database/
+test-evidence/
+
+# Archive files
+*.zip
